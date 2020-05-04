@@ -1,0 +1,16 @@
+﻿<Window x:Class="DesignPatternsProject.window_pay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesignPatternsProject"
+        mc:Ignorable="d"
+        Title="" Height="191" Width="510">
+
+    <Grid>
+        <Button x:Name="button_card1" Content="CARD1" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Center" Height="70" Width="70" Click="button_card1_Click"/>
+        <Button x:Name="button_card2" Content="CARD2" HorizontalAlignment="Left" Margin="220,0,0,0" VerticalAlignment="Center" Height="70" Width="70" Click="button_card2_Click"/>
+        <Button x:Name="button_card3" Content="CARD3" HorizontalAlignment="Left" Margin="360,0,0,0" VerticalAlignment="Center" Height="70" Width="70" Click="button_card3_Click"/>
+
+    </Grid>
+</Window>
